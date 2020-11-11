@@ -1,5 +1,15 @@
-// Scrivere un programma Hack che traccia una riga verticale in colonna 20
-// lunga 50 pixel
+/*
+    Università di Bologna
+    Corso di laurea in Informatica
+    11925 - Architettura degli elaboratori
+
+    Stefano Volpe #969766
+    03/11/2020
+
+    0.asm
+    Scrivere un programma Hack che traccia una riga verticale in colonna 20
+    lunga 50 pixel
+*/
 
 @SCREEN
 D = A

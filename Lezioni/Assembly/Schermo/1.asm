@@ -1,5 +1,15 @@
-// Scrivere un programma Hack che traccia sullo schermo una linea diagonale
-// (a 45 gradi) he parte dall'angolo in altro a sinistra lunga 50 px
+/*
+    Università di Bologna
+    Corso di laurea in Informatica
+    11925 - Architettura degli elaboratori
+
+    Stefano Volpe #969766
+    03/11/2020
+
+    1.asm
+    Scrivere un programma Hack che traccia sullo schermo una linea diagonale
+    (a 45 gradi) he parte dall'angolo in altro a sinistra lunga 50 px
+*/
 
 @SCREEN
 D = A
