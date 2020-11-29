@@ -49,7 +49,7 @@ label       loop // while...
     push    local 0
     call    primi.is_divisible_by 2
     not
-    if-goto inc // if argumet[0] % local[0]
+    if-goto inc // if argument[0] % local[0]
     push    constant 0
     return // return false
 label       inc
