@@ -4,3 +4,5 @@
 *.tst
 *.hack
 *.asm
+*.o
+tests/
