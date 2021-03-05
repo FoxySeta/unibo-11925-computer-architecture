@@ -18,18 +18,22 @@ Codice | Nome | Descrizione | Parametri
 C | `Clear screen` | Pulisce il foglio. |
 S | `Swap colors` | Passa dal tema chiaro allo scuro e viceversa. |
 P | `Pixel` | Disegna un punto sul foglio. | Tre interi rappresentanti le coordinate del punto.
-L | `Line` | Traccia un segmento sul foglio: il primo estremoè l'attuale posizione della matita. | Tre interi rappresentanti le coordinate del secondo estremo.
-U | `Undo` | Annulla l'ultima azione della matita (punto o linea) |
+L | `Line` | Traccia un segmento sul foglio: il primo estremo è l'attuale posizione della matita. | Tre interi rappresentanti le coordinate del secondo estremo.
+U | `Undo` | Annulla l'ultima azione della matita (punto o linea). |
 
-A questi comandi vanno aggiunte le frecce direzionali, `+` e `-`. Non accettano
-parametri e vengono usati per spostare l'osservatore.
+A questi comandi si aggiungono:
+* le quattro frecce direzionali
+* `+`
+* `-`
+
+Non accettano parametri e vengono usati per spostare l'osservatore.
 
 ## Avvertenze
 * Se un elemento è anche solo parzialmente fuori dal campo di visibilità
 dell'osservatore, non verrà mostrato a schermo.
 
-* La posizione iniziale dell'osservatore è (0, 0, 0), quindi i punti con z non
-positivi non sono immediatamente visibili.
+* La posizione iniziale dell'osservatore è (0, 0, 0), quindi i punti conù
+coordinata z non positiva non sono immediatamente visibili.
 
 ## Esempio
 Il seguente codice genera un piccolo tetraedro non regolare:
